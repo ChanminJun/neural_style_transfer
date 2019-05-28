@@ -5,6 +5,10 @@ I found it hard to transfer art style of pictures with more realistic image size
 
 Here are codes that tweaked various examples of neural style transfer, to fit with bigger images.
 
+The run takes long to change image, typically about 5mins depending on your GPU. (Never try running on CPU!!!)
+
+
+
 test run neural_style_tranfer.py converts content_1.jpg file to the style of style_1.jpg contained in content_imgs & style_imgs respectively
 
 final result saved in result_imgs folder
