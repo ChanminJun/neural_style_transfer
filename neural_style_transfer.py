@@ -282,7 +282,7 @@ def transfer_procedure(
 if __name__ == "__main__":
 
     content_url = "https://cdn.pixabay.com/photo/2013/01/05/21/02/mona-lisa-74050_960_720.jpg"
-    style_url = "https://news.artnet.com/app/news-upload/2018/02/Lot-7-Pablo-Picasso-FEMME-AU-BE%CC%81RET-ET-A%CC%80-LA-ROBE-QUADRILLE%CC%81E-MARIE-THE%CC%81RE%CC%80SE-WALTER-est.-upon-request-860x1024.jpg"
+    style_url = "https://www.vincentvangogh.org/images/paintings/self-portrait-with-bandaged-ear-and-pipe.jpg"
 
     img_data = requests.get(content_url).content
     with open("./content_imgs/content_1.jpg", "wb") as handler:
@@ -306,4 +306,3 @@ if __name__ == "__main__":
         content_path, style_path, result_path, no_pass=no_pass, imsize=imsize,
         show=show, num_steps=num_steps, art_to_art=True
     )
-#%%
